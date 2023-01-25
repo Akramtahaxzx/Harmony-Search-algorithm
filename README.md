@@ -54,4 +54,13 @@ F F 0
 
 and finally print the results of best solution in excel file 
 
+THE STEP TO SOLVE ALGORITHM 
 
+1- Initialize the harmony memory with a set of randomly generated solutions.
+2- Evaluate the fitness of each solution in the harmony memory.
+3- Select a solution from the harmony memory as the current solution.
+4- Generate a new solution by adjusting the current solution using a harmony-search-specific algorithm, such as random perturbation or pitch adjustment.
+5- Evaluate the fitness of the new solution.
+6- If the new solution is better than the current solution, replace the current solution with the new solution.
+
+*Repeat steps 3-7 for a set number of iterations or until a satisfactory solution is found*
